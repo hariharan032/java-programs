@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+              System.out.print("enter a string:");
+        String a=sc.nextLine();
+        String b=a;
+        System.out.print("enter a source string:");
+        System.out.println(b);
+        System.out.print("enter the destination string:");
+        System.out.println(b);
+    }
+}
