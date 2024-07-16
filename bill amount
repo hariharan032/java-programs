@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class helloworld{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int bill_id=sc.nextInt();
+        int customer_id=sc.nextInt();
+        int discount=sc.nextInt();
+        int bill_amnt=sc.nextInt();
+        double discount_bill_amount=bill_amnt-bill_amnt*(discount/100);
+        System.out.println("the bill id is:"+bill_id);
+        System.out.println("customer id is:"+customer_id);
+        System.out.println("the discount is:"+discount);
+        System.out.println("the bill amount is:"+bill_amnt);
+        System.out.println("the discount bill amount is:"+discount_bill_amount);
+      }
+}
