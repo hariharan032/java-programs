@@ -1,0 +1,33 @@
+class HelloWorld extends A  {
+    int Principle1=500;
+    HelloWorld(int a)
+    {  
+      super(a);
+      System.out.println("Helloworld class Constructor:" +a);  
+    }
+    public static void main(String[] args) {
+        //System.out.println("Try programiz.pro");
+      HelloWorld h1 =  new HelloWorld(100);
+      h1.meth();
+     
+    }
+     void meth()
+    { 
+        super.meth();
+        System.out.println("The Principle is : "+Principle1);
+         System.out.println("The Principle is : "+Principle);
+       
+    }
+}
+class A
+{
+    int Principle=1500;
+    A(int a)
+    {
+        System.out.println("A class Constructor:"+ a);
+    }
+    void meth()
+    {
+ System.out.println("A classMethod");
+    }
+}
